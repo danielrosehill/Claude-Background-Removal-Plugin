@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/png;image/jpeg;image/webp;image/bmp;image/tiff;
+Actions=removeBackground;removeBackgroundTwoPass;removeBackgroundInfiniteHop;
+
+[Desktop Action removeBackground]
+Name=Quick RMBG
+Comment=Remove background from this image
+Icon=edit-image-face-remove
+Exec=quick-rmbg "%f"
+
+[Desktop Action removeBackgroundTwoPass]
+Name=Quick RMBG (Two-Pass)
+Comment=Remove background with two passes for better results
+Icon=edit-image-face-remove
+Exec=quick-rmbg --two-pass "%f"
+
+[Desktop Action removeBackgroundInfiniteHop]
+Name=Quick RMBG (Infinite Hop)
+Comment=Remove background repeatedly until you're satisfied
+Icon=edit-image-face-remove
+Exec=quick-rmbg --infinite-hop "%f"

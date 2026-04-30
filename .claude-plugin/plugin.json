@@ -1,0 +1,12 @@
+{
+  "name": "background-removal",
+  "version": "1.0.0",
+  "description": "Remove image backgrounds via rembg — single-pass, two-pass cleanup, batch mode, and KDE Dolphin right-click integration.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/Claude-Background-Removal-Plugin",
+  "license": "MIT",
+  "keywords": ["image", "background-removal", "rembg", "kde", "dolphin"]
+}
