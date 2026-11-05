@@ -1,6 +1,6 @@
 ---
 name: remove-background
-description: Use when the user wants to remove the background from a single image file.
+description: Use when the user wants to remove the background from a single image file, cut a person or object out of a photo, isolate the subject, or get a transparent PNG.
 ---
 
 # Remove Background
